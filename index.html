@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spicy Meal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="images/favIcon.png" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="CommonFiles/bootstrap-5.3.8/css/bootstrap.min.css">    
+    <script src="CommonFiles/bootstrap-5.3.8/js/bootstrap.bundle.min.js"></script>    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="CommonFiles/Fonts/fontawesome-7.1.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="mainHeader" id="home">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="logo navbar-brand">
+                        <a class="navbar-brand" href="#home"><img src="images/logo.png" id="mainLogo"
+                                alt=""></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#category">Category</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#discount">Discount</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonial">Testimonial</a>
+                            </li>                           
+                        </ul>
+                        <div class="logBtns">
+                            <button class="btnSecondary" data-bs-toggle="modal" data-bs-target="#signUpModal">Book
+                                Table</button>
+                            <button class="btnPrimary" data-bs-toggle="modal" data-bs-target="#loginModal"><i
+                                    class="fa-solid fa-cart-arrow-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-12 leftCnt" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="leftBannerContent cmnBtn">
+                        <span class="specialText">Hot for every sunday</span>
+                        <h5>Enjoy our <span>Delicious</span> Food</h5>
+                        <p>Enjoy a wide variety of delicious food made with fresh ingredients and rich flavors for a
+                            memorable dining experience.</p>
+                        <button class="btnPrimary">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12 rhtCnt" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="rightBannerContent">
+                        <img src="images/Banner/bannerImg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+            <img src="images/Banner/overlay.png" alt="">
+        </div>
+    </section>
+
+    <section class="ourCategories" id="category">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="mainTitle">
+                        <h5>Our Categories</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="CategoryCard">
+                        <div class="innerCard">
+                            <div class="icons">
+                                <img src="images/Categories/img1.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Delish Burger</h5>
+                                <p>25 Items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="CategoryCard">
+                        <div class="innerCard">
+                            <div class="icons">
+                                <img src="images/Categories/img2.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Sandwiches</h5>
+                                <p>34 Items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="CategoryCard">
+                        <div class="innerCard">
+                            <div class="icons">
+                                <img src="images/Categories/img3.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Mexican Cuisine</h5>
+                                <p>43 Items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="CategoryCard">
+                        <div class="innerCard">
+                            <div class="icons">
+                                <img src="images/Categories/img4.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Italian Cuisine</h5>
+                                <p>8 Items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="centerBtn cmnBtn">
+                        <button class="btnPrimary">See More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutUs" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-12 lftCnt" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="leftContent cmnBtn">
+                        <img src="images/AboutUs/burger.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12 rhtCnt" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="rightContent">
+                        <div class="sideHeader">
+                            <span class="specialText">About Us</span>
+                            <h5>Delicious About Fresh Flavourful Dining</h5>
+                            <p>Experience fresh and flavourful dining with delicious dishes crafted to satisfy every
+                                taste and make every meal special.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 col-12">
+                                <div class="availCard">
+                                    <div class="infoCard">
+                                        <div class="icons">
+                                            <img src="images/AboutUs/img1.png" alt="">
+                                        </div>
+                                        <div class="contents">
+                                            <h5>1500+</h5>
+                                            <p>Total Food Item</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-12">
+                                <div class="availCard">
+                                    <div class="infoCard">
+                                        <div class="icons">
+                                            <img src="images/AboutUs/img2.png" alt="">
+                                        </div>
+                                        <div class="contents">
+                                            <h5>500+</h5>
+                                            <p>Branch Office</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-12">
+                                <div class="orderBtn cmnBtn">
+                                    <button class="btnPrimary">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount" id="discount">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-sm-7 col-12 lftCnt" data-aos="fade-right" data-aos-duration="2500">
+                    <div class="leftContent cmnBtn">
+                        <div class="sideHeader">
+                            <span class="specialText">Get 25% Discount</span>
+                            <h5>Today Our Special Combo Offers</h5>
+                        </div>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-3 col-12">
+                                    <div class="countCard">
+                                        <h5 id="days">15</h5>
+                                        <p>Day</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-12">
+                                    <div class="countCard">
+                                        <h5 id="hours">12</h5>
+                                        <p>Hour</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-12">
+                                    <div class="countCard">
+                                        <h5 id="minutes">56</h5>
+                                        <p>Minute</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-12">
+                                    <div class="countCard">
+                                        <h5 id="seconds">27</h5>
+                                        <p>Second</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="readMoreBtn">
+                            <button class="btnPrimary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-5 col-12 rhtCnt" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="rightContent">
+                        <img src="images/Discount/burger.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="whyChooseUs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="mainTitle">
+                        <span class="specialText">Why Choose Us</span>
+                        <h5>Why We're Your Best Choice</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="whyChooseCard">
+                        <div class="icons">
+                            <img src="images/WhyChooseUs/img1.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>Hygienic Food</h5>
+                            <p>We prepare every meal with high hygiene standards to ensure fresh, safe, and healthy food
+                                for our customers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="whyChooseCard">
+                        <div class="icons">
+                            <img src="images/WhyChooseUs/img2.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>Fresh Environment</h5>
+                            <p>Enjoy a clean, comfortable, and refreshing atmosphere designed for relaxing and memorable
+                                dining moments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="whyChooseCard">
+                        <div class="icons">
+                            <img src="images/WhyChooseUs/img3.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>Skilled Chefs</h5>
+                            <p>Our experienced chefs create delicious dishes with perfect taste, quality ingredients,
+                                and expert cooking techniques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="whyChooseCard">
+                        <div class="icons">
+                            <img src="images/WhyChooseUs/img4.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>Event & Pary</h5>
+                            <p>Celebrate your special events and parties with great food, beautiful arrangements, and
+                                exceptional hospitality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-12 lftCnt" data-aos="fade-right" data-aos-duration="2500">
+                    <div class="leftContent cmnBtn">
+                        <div class="sideHeader">
+                            <span class="specialText">Reservation</span>
+                            <h5>Need Reservation? Booking Your Table Now</h5>
+                            <p>Order online</p>
+                        </div>
+                        <div class="readMoreBtn">
+                            <button class="btnPrimary"><i class="fa fa-phone"></i>+9652356854</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12 rhtCnt" data-aos="fade-left" data-aos-duration="2500">
+                    <div class="rightContent">
+                        <div class="booktableCard">
+                            <h5>Create An Booking Table</h5>
+                            <form id="reservationForm">
+                                <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-12">
+                                    <div class="fieldDatas">
+                                        <input type="text" id="resName" placeholder="Enter your name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-12">
+                                    <div class="fieldDatas">
+                                        <input type="text" id="resEmail" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-12">
+                                    <div class="fieldDatas">
+                                        <input type="text" id="resPhone" placeholder="Enter your phone" required>
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-12">
+                                    <div class="fieldDatas">
+                                        <input type="text" id="resDate" placeholder="Date" required>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 col-12">
+                                    <div class="fieldDatas">
+                                        <select id="resGuests" class="form-control">
+                                            <option value="1 Person">1 Person</option>
+                                            <option value="2 People">2 People</option>
+                                            <option value="4+ People">4+ People</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 col-12">
+                                    <button type="submit" class="btnPrimary">Book a Table</button>
+                                </div>
+                            </div>
+                            </form>  
+                                <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+                                    🎉 Table booked successfully! We have sent a confirmation email.
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="DeliciousMenu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="mainTitle">
+                        <span class="specialText">Delicious Menu</span>
+                        <h5>Explore Our Delicious Menu</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="menuCard active">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img1.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Truffle Mac and Cheese</h5>
+                                <p>Indulgent mac and cheese with truffle essence.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$29.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img2.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Grilled Ribeye Steak</h5>
+                                <p>Perfectly grilled ribeye steak with savory seasoning.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$31.56</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img3.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Honey-Glazed Salmon</h5>
+                                <p>Sweet and savory honey-glazed salmon fillet.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$23.78</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img4.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Thai Coconut Curry</h5>
+                                <p>Fragrant Thai coconut curry with vibrant vegetables.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$28.20</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img5.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Gourmet Mushroom Risotto</h5>
+                                <p>Rich, creamy risotto with gourmet mushrooms.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$25.67</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img6.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Margarita Shrimp Tacos</h5>
+                                <p>Zesty shrimp tacos with fresh margarita flavor.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$12.15</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img7.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>BBQ Bacon Burger</h5>
+                                <p>Juicy burger topped with BBQ sauce and bacon.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$15.34</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="menuCard">
+                        <div class="innerLeftCard">
+                            <div class="icons">
+                                <img src="images/Delicious/img8.png" alt="">
+                            </div>
+                            <div class="contents">
+                                <h5>Spicy Tuna Roll</h5>
+                                <p>Spicy tuna roll with a bold, flavorful kick.</p>
+                            </div>
+                        </div>
+                        <div class="innerRightCard">
+                            <h5>$32.90</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid galleryContainer">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="foodGallery">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row smallGalleryImg">
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-12 p-0">
+                                <div class="gallery">
+                                    <img src="images/Delicious/gallery/img1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialChefs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="mainTitle">
+                        <span class="specialText">Our Special Chefs</span>
+                        <h5>Introducing Our Culinary Masters</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="chefCard">
+                        <div class="image">
+                            <img src="images/OurChefs/img1.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>John Williams</h5>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="chefCard">
+                        <div class="image">
+                            <img src="images/OurChefs/img2.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>Alex Mika</h5>
+                            <p>Excutive Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="chefCard">
+                        <div class="image">
+                            <img src="images/OurChefs/img3.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h5>John Smith</h5>
+                            <p>Excutive Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="mainTitle">
+                        <span class="specialText">Testimonial</span>
+                        <h5>Our Guests Are Saying</h5>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img1.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>David Felix</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>CEO</p>
+                                                <div class="reviews">
+                                                    <p>Absolutely delicious food with amazing taste and perfect
+                                                        quality.
+                                                        Every dish was fresh, hygienic, and beautifully served.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img2.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Sarah Jenkins</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Operations Manager</p>
+                                                <div class="reviews">
+                                                    <p>Exceptional dining experience! The flavors were perfectly
+                                                        balanced, and the attention to detail in presentation was truly
+                                                        impressive.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img3.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Michael Chang</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Creative Director</p>
+                                                <div class="reviews">
+                                                    <p>A masterpiece of culinary art. The ingredients were incredibly
+                                                        fresh, and the service was just as spectacular as the food
+                                                        itself.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img4.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Amanda Ross</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Marketing Head</p>
+                                                <div class="reviews">
+                                                    <p>Every single bite was a delight. Highly recommend this place for
+                                                        anyone looking for authentic taste and pristine presentation.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img5.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Robert Taylor</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Managing Director</p>
+                                                <div class="reviews">
+                                                    <p>Top-tier quality and phenomenal taste. The menu offers an
+                                                        excellent variety, and each dish is crafted to absolute
+                                                        perfection.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img6.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Elena Rostova</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Event Coordinator</p>
+                                                <div class="reviews">
+                                                    <p>Flawless service and rich, vibrant flavors. It is rare to find a
+                                                        place that consistently delivers such high standards of hygiene
+                                                        and taste.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img7.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Marcus Vance</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Tech Consultant</p>
+                                                <div class="reviews">
+                                                    <p>Remarkable food quality that never disappoints. The dishes are
+                                                        consistently fresh, bursting with flavor, and wonderfully
+                                                        curated.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img8.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Olivia Bennett</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Product Designer</p>
+                                                <div class="reviews">
+                                                    <p>Beautifully served and masterfully seasoned. It’s an absolute
+                                                        culinary treat that keeps you looking forward to your next
+                                                        visit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-12">
+                                        <div class="testimonialCard">
+                                            <div class="image">
+                                                <img src="images/Testimonial/img9.jpg" alt="">
+                                            </div>
+                                            <div class="contents">
+                                                <h5>Jonathan Reyes</h5>
+                                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i></p>
+                                                <p>Financial Analyst</p>
+                                                <div class="reviews">
+                                                    <p>Truly outstanding flavor profiles and immaculate presentation.
+                                                        The quality of the food is worth every bit of praise it gets.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ourBlog">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="mainTitle">
+                        <span class="specialText">Our Latest Blog</span>
+                        <h5>Discover Our Latest Blog Posts</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="blogCard">
+                        <div class="image">
+                            <img src="images/Blog/img1.jpg" alt="">
+                        </div>
+                        <div class="contents">
+                            <div class="simpleMenus">
+                                <ul>
+                                    <li><i class="fa fa-user"></i>By David</li>
+                                    <li><i class="fa-regular fa-comment"></i>Comments (2)</li>
+                                </ul>
+                            </div>
+                            <h5>Crispy stovetop roosted red potatoes foods</h5>
+                            <p>Crispy stovetop red potatoes, seasoned to perfection, golden and delicious.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="blogCard">
+                        <div class="image">
+                            <img src="images/Blog/img2.jpg" alt="">
+                        </div>
+                        <div class="contents">
+                            <div class="simpleMenus">
+                                <ul>
+                                    <li><i class="fa fa-user"></i>By David</li>
+                                    <li><i class="fa-regular fa-comment"></i>Comments (2)</li>
+                                </ul>
+                            </div>
+                            <h5>How to make jimmy soft boiled eggs at home</h5>
+                            <p>Make Jimmy soft-boiled eggs at home with tender whites and creamy yolks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="blogCard">
+                        <div class="image">
+                            <img src="images/Blog/img3.jpg" alt="">
+                        </div>
+                        <div class="contents">
+                            <div class="simpleMenus">
+                                <ul>
+                                    <li><i class="fa fa-user"></i>By David</li>
+                                    <li><i class="fa-regular fa-comment"></i>Comments (2)</li>
+                                </ul>
+                            </div>
+                            <h5>Traditional soft pretzels with sweet beer cheese</h5>
+                            <p>Warm, traditional soft pretzels served with rich, sweet beer cheese dip.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-12">
+                    <div class="footerMenus">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-12 col-12">
+                                <div class="logo">
+                                    <a href="#home"><img src="images/footerLogo.png" alt=""></a>
+                                </div>
+                                <div class="description">
+                                    <p>Discover culinary delights recipes and inspiration in our delightful food haven..
+                                    </p>
+                                </div>
+                                <ul class="socialLinks">
+
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-12">
+                                <ul>
+                                    <li class="menuHeader"><a href="">CONTACT US</a></li>
+                                    <li><a href="">1901 Thornridge Cir. Shiloh, Hawaii 81063</a></li>
+                                    <li><a href="">+88-344-667-999</a></li>
+                                    <li><a href="">order@foodix.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-12">
+                                <ul>
+                                    <li class="menuHeader"><a href="">QUICK LINK</a></li>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#category">Category</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#discount">Discount</a></li>
+                                    <li><a href="#testimonial">Testimonial</a></li>
+                                </ul>
+                            </div>
+                                  
+                            <div class="col-lg-3 col-sm-12 col-12">
+                                <ul>
+                                    <li class="menuHeader"><a href="">OPINING TIME</a></li>
+                                    <li><a href="">Monday: 10.00am - 05.00pm</a></li>
+                                    <li><a href="">Tuesday: 10.20am - 05.30pm</a></li>
+                                    <li><a href="">Wednesday: 10.30am - 05.50pm</a></li>
+                                    <li><a href="">Thursday: 11.00am - 07.10pm</a></li>
+                                    <li><a href="">Friday: Closed</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyRights">
+                        <p>&copy;2026 The Spicy Meal. Copyright and All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <!-- Script -->
+     <script src="script.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+    </script>
+
+    <script>
+        let countDownDate = new Date().getTime() + (5 * 24 * 60 * 60 * 1000);
+        let result = setInterval(function(){
+            let now = new Date().getTime();
+            let distance = countDownDate - now;
+
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+            let minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+            let seconds = Math.floor(distance % (1000 * 60) / 1000);
+
+            let daysContent = document.getElementById("days");
+            let hoursContent = document.getElementById("hours");
+            let minutesContent = document.getElementById("minutes");
+            let secondsContent = document.getElementById("seconds");
+
+            daysContent.innerHTML = days < 10? "0" + days:days;
+            hoursContent.innerHTML = hours < 10? "0" + hours:hours;
+            minutesContent.innerHTML = minutes < 10? "0" + minutes:minutes;
+            secondsContent.innerHTML = seconds < 10? "0" + seconds:seconds;
+
+            if(distance < 0){
+                clearInterval(result);
+                daysContent.innerHTML = "0";
+                hoursContent.innerHTML = "0"; 
+                minutesContent.innerHTML = "0"; 
+                secondsContent.innerHTML = "0"; 
+            }
+
+        }, 1000);
+    </script>
+
+    <script>
+        const reservationForm = document.getElementById("reservationForm");
+        const successMessage = document.getElementById("successMessage");
+        reservationForm.addEventListener("submit", function(e){
+            e.preventDefault();
+
+            let name = document.getElementById("resName").value.trim();
+            let email = document.getElementById("resEmail").value.trim();
+            let phone = document.getElementById("resPhone").value.trim();
+            let date = document.getElementById("resDate").value.trim();
+
+            if(name === "" | email === "" | phone === "" | date === ""){
+                alert("Please fill in all the required fields before booking!");
+                return;
+            }
+            successMessage.style.display = "block";
+            reservationForm.reset();
+
+            setTimeout(() => {
+                successMessage.style.display = "none";
+            },4000)
+        })
+    </script>
+</body>
+</html>
